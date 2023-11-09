@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Poppins:wght@200;300;400;600;700&family=Ubuntu:ital,wght@1,300;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+        <a href="index.html" ><img src="images/logo.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hidemenu()" ></i>
+            <ul>
+                <li><a href="index.html">HOME </a></li>
+                <li><a href="about.htm">ABOUT </a></li>
+                <li><a href="course.html">COURSE </a></li>
+                <li><a href="blog.html">BLOG </a></li>
+                <li><a href="contact.html">CONTACT </a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars"onclick="showmenu()"></i>
+        </nav>
+      <h1>ABOUT US</h1>
+</div>
+    </section>
+
+
+
+
+    <!--about us content-->
+    <section class="aboutus">
+        <div class="row">
+            <div class="about-col">
+                <h1>We are the world famous University</h1>
+                <p> REVA group of institutions, believes in and pursues the path of holistic education 
+                    where the student community is the focal point of the learning process. This is been 
+                    remarkably complemented by the teaching community and parent community, working together 
+                    towards a common goal of excellence.</p>
+                <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+            <img src="images/aboutff.png" alt="">
+        </div>
+        </div>
+        
+        
+    </section>
+
+<!--footer-->
+
+        <section class="footer">
+            <h1>About Us</h1>
+            <p>Established in 2012, REVA University is a forerunner in delivering technology-based education.
+
+                Recognised as one of the Top 50 private universities in India, REVA University, <br>with innovative pedagogy, exemplary infrastructure, and an industry-resilient
+                 curriculum that is designed for the future job market, strives to benchmark  new milestones  <br>in modern education.
+                  In less than two decades, the University has grown from a small community of 150 students to a vast institution that is educating and empowering 15,000+ students on campus.</p>
+                  <img src="images/icons.png" alt="">
+
+        </section>
+
+        
+
+
+  <!--javascript  function for toggle menu-->
+    <script>
+        var navLinks=document.getElementById("navLinks")
+
+        function showmenu(){
+            navLinks.style.right="0";
+        }
+        function hidemenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+    
+</body>
+</html>
